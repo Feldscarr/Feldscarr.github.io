@@ -1,0 +1,22 @@
+div.twitch-player {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 950px) {
+  .twitch-player div iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  div.twitch-player iframe {
+    height: 340px;
+  }
+}

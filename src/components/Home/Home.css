@@ -1,0 +1,33 @@
+section {
+  z-index: -1;
+}
+
+div.mixcloud-home {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  margin-top: 150px;
+}
+
+div.container-book-now {
+  margin: 0;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+button.book-now {
+  font-size: medium;
+}
+
+@media screen and (max-width: 550px) {
+  div.mixcloud-home {
+    width: 100%;
+  }
+
+  div.container-book-now {
+    padding-top: 10rem;
+  }
+}
