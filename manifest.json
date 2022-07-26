@@ -1,0 +1,22 @@
+{
+  "short_name": "Jose Hernandez",
+  "name": "DJ Jose Hernandez",
+  "icons": [
+    {
+      "src": "jh-white-logo.png",
+      "type": "image/png",
+      "sizes": "145x145",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "jh-white-logo-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}
